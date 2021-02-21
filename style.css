@@ -62,7 +62,9 @@ ul li a {
 }
 
 ul:hover li a {
-  opacity: 0.03;
+  opacity: 0.01;
+  color: #2196f3;
+  transform: translate(-10px, 0);
 }
 
 
@@ -70,13 +72,14 @@ ul li a:hover {
   transform: scale(1.4);
   z-index: 1000;
   background: #ff3f81;
+  color: white;
   opacity: 1;
 }
 
 ul li a:active {
   transform: scale(1.2);
   z-index: 1000000;
-  opacity: 0.9;
+  opacity: 0.4;
   transition: 0.2s;
 }
 
